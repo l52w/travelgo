@@ -1,0 +1,107 @@
+* { margin: 0; padding: 0; text-decoration: none; list-style: none; }
+
+#wrap { width: 1900px; margin: 0 auto; }
+
+header {
+    background-image: url(/TravelGo_과제/images/visual.png);
+    width: 100%; height: 700px; 
+    display: flex; align-items: center; justify-content: space-between;
+}
+header img { margin-left: 350px; margin-top: -500px;}
+header nav ul{ 
+    padding: 300px; margin-top: -500px; font-size: 20px;
+    width: 600px; color: white; display: flex; align-items: center; justify-content: space-between;
+}
+
+#s1 {
+    width: 100%; height: 450px;
+    display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;
+}
+#s1 h1 { font-size: 50px; margin-bottom: 40px;}
+#s1 p { color: lightslategray;  margin-bottom: 40px;}
+#s1 .btn { display: flex; grid-column-gap: 20px;}
+#s1 .wbtn1 { display: flex;}
+#s1 .wbtn2 { display: flex;}
+#s1 .wbtn1 h3 { font-size: 17px; color: lightslategray; position: absolute; margin-top: 7px; margin-left: 30px;}
+#s1 .wbtn2 h3 { font-size: 17px; color: lightslategray; position: absolute; margin-top: 7px; margin-left: 10px;}
+
+#s2 {
+    width: 100%; height: 450px;
+    background-image: url(/TravelGo_과제/images/Layer\ 7.png);
+    display: flex; align-items: center; justify-content: center; grid-column-gap: 150px;
+}
+#s2 .icon1, .icon2, .icon3, .icon4 {
+    width: 150px; height: 150px; border: 4px solid white;
+    border-radius: 50%; margin-top: -100px;
+}
+#s2 img {
+    margin-top: 50px; margin-left: 45px;
+}
+#s2 .icon1 h1 { color: white; font-size: 55px; margin-top: 55px;}
+#s2 .icon2 h1 { color: white; font-size: 55px; margin-top: 70px; margin-left: 20px;}
+#s2 .icon3 h1 { color: white; font-size: 55px; margin-top: 55px;}
+#s2 .icon4 h1 { color: white; font-size: 55px; margin-top: 55px; margin-left: 25px;}
+#s2 .icon1 p { color: white; font-size: 19px;}
+#s2 .icon2 p { color: white; font-size: 19px; margin-left: 40px;}
+#s2 .icon3 p { color: white; font-size: 19px; margin-left: 40px;}
+#s2 .icon4 p { color: white; font-size: 19px;}
+#s2 > h1 { position: absolute; font-style: italic; font-size: 200px; color: rgba(255,255,255,0.1); margin-top: 270px; margin-left: 850px;}
+
+#s3 {
+    width: 100%; height: 600px;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+}
+#s3 h1 { padding: absolute; font-size: 50px; margin-top: 100px; margin-bottom: 50px;}
+#s3 .group { width: 70%; height: 450px; display: flex; align-items: center; justify-content: space-between; }
+#s3 .img { width: 260px; height: 350px; display: grid; float: left;}
+#s3 .more { width: 50px; height: 50px; background: rgba(255, 102, 0, 0.74); margin-top: 150px; margin-left: 210px;}
+#s3 .more img { margin-top: 10px; margin-left: 12px;}
+#s3 .pic1 { width: 100%; height: 200px; background-image: url(/TravelGo_과제/images/Layer\ 9.png);}
+#s3 .img p { text-align: center; margin-top: 20px;}
+#s3 .img h4 { text-align: center; margin-top: 10px;}
+#s3 .pic2 { width: 100%; height: 200px; background-image: url(/TravelGo_과제/images/Layer\ 10.png);}
+#s3 .pic3 { width: 100%; height: 200px; background-image: url(/TravelGo_과제/images/Layer\ 11.png);}
+#s3 .pic4 { width: 100%; height: 200px; background-image: url(/TravelGo_과제/images/Layer\ 13.png);}
+
+#s4 {
+    width: 100%; height: 100px; background: rgb(252, 67, 21);
+    display: flex; align-items: center; justify-content: center; grid-column-gap: 300px;
+}
+#s4 h1 { color: white; font-size: 50px;}
+#s4 .email input { padding: 15px; width: 400px; font-size: 25px; color: lightslategray; border: none;}
+#s4 .email button { width: 300px; background: gray; padding: 15px; font-size: 25px; color: white; border: none;}
+
+footer {
+    width: 100%; height: 650px;
+    background-image: url(/TravelGo_과제/images/footer.png);
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+}
+.contact { font-size: 20px; color: white;
+    width: 70%; height: 350px; display: flex;justify-content: space-between; margin-top: -150px;
+}
+.contact .t1 { 
+    display: flex; align-items: center; justify-content: center; grid-column-gap: 30px; margin-bottom: 30px; margin-left: -35px; 
+}
+.contact .t2 { 
+    display: flex; align-items: center; justify-content: center; grid-column-gap: 30px; margin-bottom: 30px;
+}
+.contact .t3 { 
+    display: flex; align-items: center; justify-content: center; grid-column-gap: 30px;
+}
+.send { width: 800px; height: 350px; font-size: 25px; margin-top: -40px;}
+.send .name { 
+    width: 370px; height: 50px; background: rgba(255,255,255,0.3); float: left; padding: 10px;
+}
+.send .phone { 
+    width: 370px; height: 50px; background: rgba(255,255,255,0.3); float: right; padding: 10px;
+}
+.send .address { 
+    width: 780px; height: 50px; background: rgba(255,255,255,0.3); float: left; margin-top: 20px; padding: 10px;
+}
+.send .message { 
+    width: 780px; height: 100px; background: rgba(255,255,255,0.3); float: left; margin-top: 20px;padding: 10px;
+}
+.send .sbtn { 
+    width: 780px; height: 30px; background: gray; float: left; margin-top: 20px;padding: 10px; text-align: center;
+}
+.copyright { margin-top: 100px; margin-bottom: -150px; color: white;}
